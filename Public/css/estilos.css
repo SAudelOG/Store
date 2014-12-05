@@ -117,6 +117,14 @@ h1,h2{
 .img-background2{
 	background-image: url("../img/auxi/escuela-moda.jpg")
 }
+.img-background-perfil{
+	/*background-image: url("../img/auxi/ilustracion-de-moda-2.jpg");*/
+	background-image: url("../img/auxi/unnamed.jpg");
+	/*background-image: url("../img/auxi/vector-abstracto-de-moda_23-2147492193.jpg");*/
+	/*background-image: url("../img/auxi/images.jpg");*/
+	/*background-image: url("../img/auxi/images.jpg");*/
+	/*background-image: url("../img/auxi/tipo__5827_635x.gif");*/
+}
 /*imagen de fondo*/
 /*Auxiliares*/
 .sin-marginbottom{
