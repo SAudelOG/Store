@@ -1,0 +1,36 @@
+<div class="img-background2">
+	<div class="jumbotron">
+		<h1 class="page-header">
+			{{categoria.Nombre | uppercase}}
+		</h1>
+	</div>
+</div>
+
+<div class="container">
+		<!--Seccion de categorias-->
+			<div class="row">
+				<div ng-repeat="tipo in categoria.Tipos" class="">
+					<a href="/#categoria/{{categoria.cid}}/tipo/{{tipo.tid}}">
+						<div class="col-md-2 col-sm-3 col-xs-6" style="margin-top: 10px;">
+							<div class="panel panel-default">
+								<div class=" panel panel-heading text-center sin-padding panel-encabezado" style="">
+									<span>{{tipo.Nombre}}</span>
+									<br>
+									<br>
+									<div class="blank-space" style=" background: #fff;">
+										<img src="{{tipo.urlMarcaimg}}.png" alt="" class="imagen-marca">
+										<img class="max-width" src="../img/auxi/fondoFlecha.jpg" alt="" style="">
+									</div>
+								</div>
+								<div class="panel panel-body text-center">
+									<img src="{{tipo.urlTipoimg}}.jpg" alt="" class="imagen-tipo-ropa">
+									<br>
+									<span>{{tipo.Descripcion}} </span>
+								</div>
+							</div>
+							<img class="max-width img-sin-margin" src="../img/auxi/sombra.jpg" alt="">
+						</div>
+					</a>
+				</div>	
+			</div>
+</div>

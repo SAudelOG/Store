@@ -1,0 +1,25 @@
+<div>
+	<div class="page-header">
+		<h1>{{tipo.Nombre}}
+			<img src="{{tipo.urlMarcaimg}}.png" alt="" class="imagen-marca pull-right">
+		</h1>
+	</div>
+	<div class="col-sm-4">
+		<img src="{{tipo.urlTipoimg}}.jpg" alt="" style="width: 284px;">
+	</div>
+	<div class="col-sm-8">
+		<div class="jumbotron">
+			<div class="panel panel-default">
+				<div class="panel panel-body text-center">	
+					<h3 class="" style="color:black">${{tipo.Precio}}</h3>
+					<a href="#">Comprar</a>
+					<br>
+					<label for="" ng-repeat="talla in tipo.Tallas" class="label talla-{{talla | lowercase}}">{{talla}}</label>
+				</div>
+				<div class="tallas">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,67 @@
+<div>
+	<div class="row img-background" style="padding: 2.1em;">
+		<div class="col-xs-4 col-sm-4"> 
+			<!--<img class="img-thumbnail" src="{{miTodo.urlFoto}}" style="width: 200px;height: 150px;">-->
+			<div class="back-perfil-img hidden-xs">
+				<!--<img class="img-thumbnail" src="{{miTodo.urlFoto}}" style="width: 200px;height: 150px;">-->
+				<img class="img-thumbnail" src="{{todoPersona.urlFoto}}.jpg" style="width: 170px;height: 170px;">
+			</div>
+			<img class="img-thumbnail visible-xs" src="{{todoPersona.urlFoto}}.jpg" style="width: 80px; height: 80px; margin-top: 72px">
+		</div>
+		<div class="col-xs-8 col-sm-8">
+			<div class="jumbotron">
+				<span class="pull-right glyphicon glyphicon-certificate categoria-{{cliente.CategoriaCliente | lowercase}}"></span>
+				<h4>Bienvenida</h4>
+				<p>
+					{{nombrePerfil}}
+				</p>
+				<span>Id cliente: {{cliente.Cid}}</span>
+				<br>
+				<span>Miembro desde {{cliente.MiembroDesde}}</span>
+				<br>
+				<a href="#/miperfil/uid/{{todoPersona.uid}}" class="pull-right">VER MI PERFIL</a>
+			</div>
+		</div>
+	</div>	
+	<div class="container">
+		<!--Seccion de categorias-->
+		<div class="" ng-repeat="categoria in categorias">
+			<h2 class="page-header categoria-{{categoria.Nombre | lowercase}}">
+				{{categoria.Nombre | uppercase}} <small class="pull-right"> {{categoria.Tipos.length}} <span class="glyphicon glyphicon-ok-circle"></span> </small>
+			</h2>
+			<div class="row">
+				<div ng-repeat="tipo in categoria.Tipos" class="">
+					<a href="/#categoria/{{categoria.cid}}/tipo/{{tipo.tid}}">
+						<div class="col-md-2 col-sm-3 col-xs-6" style="margin-top: 10px;">
+							<div class="panel panel-default">
+								<div class=" panel panel-heading text-center sin-padding panel-encabezado" style="">
+									<span>{{tipo.Nombre}}</span>
+									<br>
+									<br>
+									<div class="blank-space" style=" background: #fff;">
+										<img src="{{tipo.urlMarcaimg}}.png" alt="" class="imagen-marca">
+										<img class="max-width" src="../img/auxi/fondoFlecha.jpg" alt="" style="">
+									</div>
+								</div>
+								<div class="panel panel-body text-center">
+									<img src="{{tipo.urlTipoimg}}.jpg" alt="" class="imagen-tipo-ropa">
+									<br>
+									<span>{{tipo.Descripcion}} </span>
+								</div>
+							</div>
+							<img class="max-width img-sin-margin" src="../img/auxi/sombra.jpg" alt="">
+						</div>
+					</a>
+				</div>	
+			</div>
+		</div>
+		<div>
+			<h1 class="page-header text-center">
+				colores que te favorecen
+			</h1>
+			<span ng-repeat="color in colores" class="glyphicon glyphicon-ok-circle color-{{color}}"></span>
+		</div>
+	</div>
+</div>
+
+

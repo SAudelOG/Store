@@ -1,0 +1,270 @@
+{
+    "data": 
+    {
+        "uid": 1,
+        "Nombre": "Daniela Alejandra",
+        "Apaterno": "Vasquez",
+        "Amaterno": "Montes",
+        "Edad": 23,
+        "Info":{
+            "Cid":"AFCS45FS",
+            "CategoriaCliente":"Gold",
+            "MiembroDesde":"24/01/2014",
+            "Sexo": "M"
+            },
+        "urlFoto": "img/usrs/usr1",
+        "Colores" : ["rojo", "verde", "azul", "amarillo", "rosa", "morado", "violeta", "dorado", "naranja", "plateado"],
+        "Categorias": [
+            {
+                "cid": 1,
+                "Nombre": "Pantalones",
+                "Tipos": [
+                    {
+                        "tid": 1,
+                        "Nombre": "420",
+                        "Marca": "Levis",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3546",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 800,
+                        "Tallas": ["Xl", "LG", "CH", "XS"]
+                    },
+                    {
+                        "tid": 2,
+                        "Nombre": "501",
+                        "Marca": "Michael Kors",
+                        "urlMarcaimg": "img/marcas/IMG_3550",
+                        "urlTipoimg": "img/ropa/IMG_3548",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 976,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 3,
+                        "Nombre": "510",
+                        "Marca": "Michael Kors",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3546",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 976,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 4,
+                        "Nombre": "515",
+                        "Marca": "Michael Kors",
+                        "urlMarcaimg": "img/marcas/IMG_3550",
+                        "urlTipoimg": "img/ropa/IMG_3548",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 976,
+                        "Tallas": ["Xl", "XS"]
+                    },
+                    {
+                        "tid": 5,
+                        "Nombre": "545",
+                        "Marca": "Michael Kors",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3546",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 976,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    }
+                ]
+            },
+            {
+                "cid": 2,
+                "Nombre": "Faldas",
+                "Tipos": [
+                    {
+                        "tid": 1,
+                        "Nombre": "Faldota1",
+                        "Marca": "Julio",
+                        "urlMarcaimg": "img/marcas/IMG_3550",
+                        "urlTipoimg": "img/ropa/IMG_3571",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 2,
+                        "Nombre": "Faldota2",
+                        "Marca": "Julio",
+                        "urlMarcaimg": "img/marcas/IMG_3553",
+                        "urlTipoimg": "img/ropa/IMG_3573",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 3,
+                        "Nombre": "Faldota3",
+                        "Marca": "Julio",
+                        "urlMarcaimg": "img/marcas/IMG_3576",
+                        "urlTipoimg": "img/ropa/IMG_3572",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "XS"]
+                    },
+                    {
+                        "tid": 4,
+                        "Nombre": "Faldota4",
+                        "Marca": "Julio",
+                        "urlMarcaimg": "img/marcas/IMG_3569",
+                        "urlTipoimg": "img/ropa/IMG_3575",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    }
+                ]
+            },
+            {
+                "cid": 3,
+                "Nombre": "Chalecos",
+                "Tipos": [
+                    {
+                        "tid": 1,
+                        "Nombre": "Chalecote",
+                        "Marca": "Julio",
+                        "urlMarcaimg": "img/marcas/IMG_3577",
+                        "urlTipoimg": "img/ropa/IMG_3567",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG", "CH", "XS"]
+                    },
+                    {
+                        "tid": 2,
+                        "Nombre": "Chalequito2",
+                        "Marca": "Chelecomaker",
+                        "urlMarcaimg": "img/marcas/IMG_3579",
+                        "urlTipoimg": "img/ropa/IMG_3568",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["XS"]
+                    },
+                    {
+                        "tid": 3,
+                        "Nombre": "Chalequito3",
+                        "Marca": "Chelecomaker",
+                        "urlMarcaimg": "img/marcas/IMG_3570",
+                        "urlTipoimg": "img/ropa/IMG_3565",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": [ "LG" , "G", "M", "XS"]
+                    }
+                ]
+            },
+            {
+                "cid": 4,
+                "Nombre": "Vestidos",
+                "Tipos": [
+                    {
+                        "tid": 1,
+                        "Nombre": "Vestidote1",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3580",
+                        "urlTipoimg": "img/ropa/IMG_3555",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH"]
+                    },
+                    {
+                        "tid": 2,
+                        "Nombre": "Vestidote2",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3576",
+                        "urlTipoimg": "img/ropa/IMG_3556",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG", "CH", "XS"]
+                    },
+                    {
+                        "tid": 3,
+                        "Nombre": "Vestidote3",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3578",
+                        "urlTipoimg": "img/ropa/IMG_3557",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 4,
+                        "Nombre": "Vestidote4",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3563",
+                        "urlTipoimg": "img/ropa/IMG_3555",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 5,
+                        "Nombre": "Vestidote5",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3554",
+                        "urlTipoimg": "img/ropa/IMG_3556",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 6,
+                        "Nombre": "Vestidote6",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3555",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 7,
+                        "Nombre": "Vestidote7",
+                        "Marca": "Vestidora",
+                        "urlMarcaimg": "img/marcas/IMG_3554",
+                        "urlTipoimg": "img/ropa/IMG_3574",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    }
+                ]
+            },
+            {
+                "cid": 5,
+                "Nombre": "Sacos",
+                "Tipos": [
+                    {
+                        "tid": 1,
+                        "Nombre": "Sacote",
+                        "Marca": "Sacadora",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3559",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 2,
+                        "Nombre": "Sacote",
+                        "Marca": "Sacadora",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3562",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    },
+                    {
+                        "tid": 3,
+                        "Nombre": "Sacote",
+                        "Marca": "Sacadora",
+                        "urlMarcaimg": "img/marcas/IMG_3544",
+                        "urlTipoimg": "img/ropa/IMG_3560",
+                        "Descripcion": "vestido popstar extasis",
+                        "Precio": 564,
+                        "Tallas": ["Xl", "LG" , "G", "M", "CH", "XS"]
+                    }
+                ]
+            }
+        ]
+    }
+}

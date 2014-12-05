@@ -1,0 +1,161 @@
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300; 
+}
+
+/*Nombre de categorias*/
+.categoria-pantalones{
+	color:rgb(169, 169, 169);
+}
+.categoria-faldas{
+	color:rgb(169, 169, 169);
+}
+.categoria-chalecos{
+	color:rgb(169, 169, 169)
+}
+.categoria-vestidos{
+	color:rgb(169, 169, 169)
+}
+.categoria-sacos{
+	color:rgb(169, 169, 169)
+}
+/*color de tallas*/
+.color-rojo{
+	color:red;
+	font-size: 100px;
+}
+.color-verde{
+	color:rgb(62, 160, 22);
+	font-size: 100px;
+}
+.color-azul{
+	color:rgb(40, 94, 147);
+	font-size: 100px;
+}
+.color-amarillo{
+	color:rgb(242, 221, 75);
+	font-size: 100px;
+}
+.color-rosa{
+	color:rgb(215, 72, 197);
+	font-size: 100px;
+}
+.color-morado{
+	color:rgb(89, 38, 118);
+	font-size: 100px;
+}
+.color-violeta{
+	color:rgb(255, 0, 174);
+	font-size: 100px;
+}
+.color-dorado{
+	color:rgb(166, 144, 55);
+	font-size: 100px;
+}
+.color-naranja{
+	color:rgb(255, 136, 0);
+	font-size: 100px;
+}
+.color-plateado{
+	color:rgb(203, 194, 170);
+	font-size: 100px;
+}
+/*marcas img*/
+.imagen-marca{
+	height: 41px;
+	width: 68px;
+	margin: 1em;
+}
+/*tipo de ropa img*/
+.imagen-tipo-ropa{
+	height: 145px;
+	width: 100px;
+}
+/*tipo de ropa img*/
+.jumbotron{
+	background-image: url("../img/auxi/IMG_3593.png");
+	color:#fff;
+}
+.ico-m{
+	color: rgb(222, 143, 228)
+}
+.categoria-gold{
+	color: gold;
+	font-size: 25px;
+}
+/*Etiquetas de talla*/
+.talla-xl{
+	background: #F06767;
+	margin-right:.5em;
+}
+.talla-lg{
+	background: #982727;
+	margin-right:.5em;
+}
+.talla-g{
+	background: #982727;
+	margin-right:.5em;
+}
+.talla-m{
+	background: #3175AD;
+	margin-right:.5em;
+}
+.talla-ch{
+	background: #6BBB87;
+	margin-right:.5em;
+}
+.talla-xs{
+	background: #767676;
+	margin-right:.5em;
+}
+/*Etiquetas de talla*/
+
+/*imagen de fondo*/
+.img-background{
+	background-image: url("../img/auxi/IMG_3594.jpg")
+}
+.img-background2{
+	background-image: url("../img/auxi/escuela-moda.jpg")
+}
+/*imagen de fondo*/
+/*Auxiliares*/
+.sin-marginbottom{
+	margin-bottom: 0px;
+}
+.sin-padding{
+	padding: 0px 0px;
+}
+.margin{
+	margin: 1em;
+}
+.back-perfil-img{
+	background-image: url("../img/auxi/IMG_3596.png");
+	height: 223px;
+	width: 207px;
+	padding-top: 22px;
+	padding-left: 19px;
+}
+.triangulo_inf{
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 28px solid #000;
+}
+.panel-encabezado{
+	border-radius: 0px;
+	border: 0px;
+}
+.border-red{
+	border:solid 1px red;
+}
+.panel{
+	margin-bottom:0px;
+	/*border: 0px;*/
+}
+.max-width{
+	width: 100%;
+}
+.img-sin-margin{
+	vertical-align: inherit;
+}

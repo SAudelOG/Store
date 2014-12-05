@@ -1,0 +1,109 @@
+{
+	"data":[
+		{
+			"uid": 1,
+			"Nombre": "Daniela Alejandra",
+			"Apaterno": "Vasquez",
+			"Amaterno": "Montes",
+			"Edad": 23,
+			"urlFoto": "../img/usrs/usr1",
+			"Colores": ["rojo", "verde", "azul", "amarillo", "rosa", "morado", "violeta", "dorado", "naranja", "plateado"],
+			"Info": {
+				"Cid": "AFCS45FS",
+				"CategoriaCliente": "Gold",
+				"MiembroDesde": "24/10/2014",
+				"Sexo": "M",
+				"Telfijo": "3121409897",
+				"Telmovil": "3123236695",
+				"Altura": "1.60",
+				"Peso": "58",
+				"CategoriasPreferidas": ["Chalecos", "Vestidos", "Sacos"],
+				"MarcasPreferidas": ["Julio", "Levis", "Channel", "Armani", "Bebe", "Dior", "Zara", "Lacoste", "Carolina Herrera", "Versace", "Abercombrie", "Salvatore Ferragamo"]
+			}
+		},
+		{
+			"uid": 2,
+			"Nombre": "Ana",
+			"Apaterno": "Valera",
+			"Amaterno": "Valera",
+			"Edad": 26,
+			"urlFoto": "http://eaibeleza.com/wp-content/uploads/2014/04/maquiagem-bem-na-foto-blog.jpg",
+			"Colores": ["rojo", "verde", "azul", "amarillo", "morado", "violeta", "dorado", "naranja", "plateado"],
+			"Info": {
+				"Cid": "AFC675CB",
+				"CategoriaCliente": "Silver",
+				"MiembroDesde": "24/10/2014",
+				"Sexo": "M",
+				"Telfijo": "3121409897",
+				"Telmovil": "3123236695",
+				"Altura": "1.90",
+				"Peso": "79",
+				"CategoriasPreferidas": ["Pantalones", "Faldas", "Chalecos", "Vestidos", "Sacos"],
+				"MarcasPreferidas": ["Julio", "Michael Kors", "Levis", "Channel", "Armani", "Bebe", "Dior", "Zara", "Lacoste", "Carolina Herrera", "Versace", "Abercombrie", "Salvatore Ferragamo"]
+			}
+		},
+		{
+			"uid": 3,
+			"Nombre": "Juan",
+			"Apaterno": "Perez",
+			"Amaterno": "Valera",
+			"Edad": 33,
+			"urlFoto": "http://eaibeleza.com/wp-content/uploads/2014/04/maquiagem-bem-na-foto-blog.jpg",
+			"Colores": ["rojo", "verde", "azul", "amarillo", "rosa", "morado", "violeta", "dorado", "naranja", "plateado"],
+			"Info": {
+				"Cid": "AF34454GH",
+				"CategoriaCliente": "Gold",
+				"MiembroDesde": "24/10/2014",
+				"Sexo": "H",
+				"Telfijo": "3121409897",
+				"Telmovil": "3123236695",
+				"Altura": "1.90",
+				"Peso": "79",
+				"CategoriasPreferidas": ["Pantalones", "Faldas", "Chalecos", "Vestidos", "Sacos"],
+				"MarcasPreferidas": ["Julio", "Michael Kors", "Levis", "Channel", "Armani", "Bebe", "Dior", "Zara", "Lacoste", "Carolina Herrera", "Versace", "Abercombrie", "Salvatore Ferragamo"]
+			}
+		},
+		{
+			"uid": 4,
+			"Nombre": "Sandra",
+			"Apaterno": "Del rio",
+			"Amaterno": "Gudinio",
+			"Edad": 35,
+			"urlFoto": "http://eaibeleza.com/wp-content/uploads/2014/04/maquiagem-bem-na-foto-blog.jpg",
+			"Colores": ["rojo", "verde", "azul", "amarillo", "rosa", "morado", "violeta", "dorado", "naranja", "plateado"],
+			"Info": {
+				"Cid": "A45S4LHF",
+				"CategoriaCliente": "Silver",
+				"MiembroDesde": "24/10/2014",
+				"Sexo": "M",
+				"Telfijo": "3121409897",
+				"Telmovil": "3123236695",
+				"Altura": "1.90",
+				"Peso": "79",
+				"CategoriasPreferidas": ["Pantalones", "Faldas", "Chalecos", "Vestidos", "Sacos"],
+				"MarcasPreferidas": ["Julio", "Michael Kors", "Levis", "Channel", "Armani", "Bebe", "Dior", "Zara", "Lacoste", "Carolina Herrera", "Versace", "Abercombrie", "Salvatore Ferragamo"]
+			}
+		},
+		{
+			"uid": 5,
+			"Nombre": "Fernando",
+			"Apaterno": "Perez",
+			"Amaterno": "Ruiz",
+			"Edad": 45,
+			"urlFoto": "http://eaibeleza.com/wp-content/uploads/2014/04/maquiagem-bem-na-foto-blog.jpg",
+			"Colores": ["rojo", "verde", "azul", "amarillo", "rosa", "morado", "violeta", "dorado", "naranja", "plateado"],
+			"Info": {
+				"Cid": "AFC545FG",
+				"CategoriaCliente": "Bronze",
+				"MiembroDesde": "24/10/2014",
+				"Sexo": "H",
+				"Telfijo": "3121409897",
+				"Telmovil": "3123236695",
+				"Altura": "1.90",
+				"Peso": "79",
+				"CategoriasPreferidas": ["Pantalones", "Faldas", "Chalecos", "Vestidos", "Sacos"],
+				"MarcasPreferidas": ["Julio", "Michael Kors", "Levis", "Channel", "Armani", "Bebe", "Dior", "Zara", "Lacoste", "Carolina Herrera", "Versace", "Abercombrie", "Salvatore Ferragamo"]
+			}
+		}
+	]
+}
