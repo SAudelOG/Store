@@ -83,7 +83,7 @@
 	    		isFirstOpen: true,
 	    		isFirstDisabled: false
 	  		};
-  		$('[data-toggle="tooltip"]').tooltip()
+  		$('[data-toggle="tooltip"]').tooltip();
 	}])
 
 	.controller('TabsController',['$scope', 'tiendaService', function($scope, tiendaService){
